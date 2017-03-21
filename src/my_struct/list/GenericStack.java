@@ -1,4 +1,4 @@
-package my_list;
+package my_struct.list;
 
 import java.util.ArrayList;
 
