@@ -1,4 +1,4 @@
-package my_struct.matrix;
+package zwz.struct.matrix;
 
 public abstract class GenericMatrix<E extends Number> {
 

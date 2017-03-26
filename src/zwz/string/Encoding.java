@@ -1,4 +1,4 @@
-package my_string;
+package zwz.string;
 
 public class Encoding {
 
