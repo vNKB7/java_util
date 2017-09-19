@@ -3,6 +3,13 @@ package zwz.struct.unionfind;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 这个类根本没有意义嘛。设计得不够好
+ * 
+ * @author ZWZ
+ *
+ * @param <E>
+ */
 public class TreeUnionFind<E> extends AbstractUnionFind<E>{
 
 	List<Node> nodeArray = new ArrayList<>();
@@ -38,14 +45,12 @@ public class TreeUnionFind<E> extends AbstractUnionFind<E>{
 	class Node{
 		int rank;
 		Node parent;
-//		int parentIndex;
-		int index;
+		final int index;
 		
 		public Node(int index){
 			this.parent = this;
 			this.index = index;
 			this.rank = 0;
-//			this.parentIndex = this.index;
 		}
 		
 		public void setParent(int index){
